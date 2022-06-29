@@ -18,15 +18,11 @@ php cron.php
 ```
 
 # Một số lệnh cron
-## Chạy tệp php
-```base
-php /duong/dan/den/tep/file.php
-```
-## Cron file giống cpanel
+## Cron file php
 ```base
 /usr/local/bin/php /home/useraname/public_html/path/to/cron/script.php
 ```
-## Cron file giống cpanel, php tùy chỉnh
+## Cron file phiên bản php tùy chỉnh
 Thay <b>XX</b> ở <b>ea-phpXX</b> thành mã phiên bản php. VD: php 8.1 =>  ea-php8.1
 ```base
 /usr/local/bin/ea-phpXX /home/useraname/public_html/path/to/cron/script.php
