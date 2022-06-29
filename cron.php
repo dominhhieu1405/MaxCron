@@ -75,7 +75,7 @@ switch($select){
                     file_put_contents("$dir/log/" . $cron->log, json_encode($logs, JSON_UNESCAPED_UNICODE|JSON_PRETTY_PRINT|JSON_UNESCAPED_SLASHES));
                     file_put_contents( "$dir/list.json", json_encode($crons, JSON_UNESCAPED_UNICODE|JSON_PRETTY_PRINT|JSON_UNESCAPED_SLASHES));
                     echo "\n  ==> ";
-                    echo (!$code) ? $green . "Thành công" : $red . "Thất bại" . $reset . " (Mã lỗi: $code)\n";
+                    echo (!$code) ? $green . "Thành công$reset" : $red . "Thất bại" . $reset . " (Mã lỗi: $code)\n";
                 }
             }
         }
