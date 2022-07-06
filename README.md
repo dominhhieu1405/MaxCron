@@ -27,7 +27,7 @@ Thay <b>XX</b> ở <b>ea-phpXX</b> thành mã phiên bản php. VD: php 8.1 =>  
 ```base
 /usr/local/bin/ea-phpXX /home/useraname/public_html/path/to/cron/script.php
 ```
-## Cron file phiên bản php tùy chỉnh
+## Cron theo url
 Thay <b>https://domain.com/</b> thành url cần cron
 ```base
 curl -XGET 'https://domain.com/'
